@@ -26,7 +26,7 @@ export const projectTable = sqliteTable("project_table", {
   updatedAt: text("updated_at")
     .notNull()
     .default(sql`CURRENT_TIMESTAMP`),
-  userId: int("userId").references(() => usersTable.id),
+  userId: int("userId").notNull().references(() => usersTable.id),
 });
 
 export const taskTable = sqliteTable("task_table", {
@@ -38,7 +38,7 @@ export const taskTable = sqliteTable("task_table", {
   updatedAt: text("updated_at")
     .notNull()
     .default(sql`CURRENT_TIMESTAMP`),
-  projectId: int("projectId").references(() => projectTable.id),
+  projectId: int("projectId").notNull().references(() => projectTable.id),
 });
 
 export type User = typeof usersTable.$inferSelect;
