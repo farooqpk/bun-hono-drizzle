@@ -1,5 +1,5 @@
 import { Hono } from "hono";
 
-const projectRouter = new Hono();
+const app = new Hono();
 
-export default projectRouter;
+export default app;

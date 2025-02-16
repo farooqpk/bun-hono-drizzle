@@ -1,5 +1,5 @@
 import { Hono } from "hono";
 
-const taskRouter = new Hono();
+const app = new Hono();
 
-export default taskRouter;
+export default app;
