@@ -1,0 +1,20 @@
+{
+  "name": "project-managment",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "^0.4.3",
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.39.3",
+    "hono": "^4.7.1",
+    "pg": "^8.13.3"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/pg": "^8.11.11",
+    "drizzle-kit": "^0.30.4"
+  }
+}

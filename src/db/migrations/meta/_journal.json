@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1739693952484,
+      "tag": "0000_flippant_salo",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1739695397678,
+      "tag": "0001_robust_logan",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1739696032221,
+      "tag": "0002_curved_kabuki",
+      "breakpoints": true
+    }
+  ]
+}
